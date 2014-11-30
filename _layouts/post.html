@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div id="contain">
+
+  
+    <div class="topics" align="center" >
+
+<p><a href="{{ post.url }}"><strong style="font-size:25px;">{{ page.title }}</strong></a><br/>{{ page.date | date_to_string }}</p> 
+{% if page.image %}<img src="{{ page.image }}" width="100%"/>{% endif %}
+
+<div class="post" align="justify">
+{{ content }}
+</div>
+     </div>
+</div>

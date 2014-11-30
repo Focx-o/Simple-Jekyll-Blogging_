@@ -1,0 +1,96 @@
+html,body{
+padding:0;
+margin:0;
+}
+
+a{
+text-decoration:none;
+color:black;
+outline:none;
+}
+
+.wapper{
+margin-left:5px;
+margin-right:5px;
+}
+
+strong{
+font-family:joti one;
+}
+
+/* header */
+
+.header table{
+padding:3px 1px 3px 1px;
+font-family: 'Joti One';
+border-bottom: 1px dashed black;
+}
+
+.header th{
+padding:3px;
+border:1px dashed black;
+border-radius:5px;
+
+}
+
+
+/**Footer**/
+.footer{
+text-align:center;
+font-family: 'Joti One';
+line-height:5px;
+}
+
+.footer p{
+font-size:12px;
+}
+
+/*home*/
+#home{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#btnarchive{
+border:2px solid black;
+border-radius:9px;
+background-color:black;
+width:60px;
+text-align:center;
+padding:4px;
+font-family:joti one;
+font-size:13px;
+}
+#btnarchive a{
+color:white;
+}
+
+#btnarchive a:hover{
+color:red;
+}
+#home th{
+border-bottom:1px dashed black;
+width:270px;
+text-align:center;
+line-height:15px;
+padding:6px;
+}
+
+/*contain*/
+#contain{
+margin-left:150px;
+margin-right:150px;
+}
+
+/*topics*/
+.topics{
+font-family: 'Lusitana', serif;
+}
+.post-excerpt{
+text-align:justify;
+font-size:30px;
+}
+
+/*posts*/
+.post{
+font-size:30px;
+}
